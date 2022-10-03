@@ -1,0 +1,40 @@
+{
+    "id": "edpaccas-forge",
+    "name": "Edpacca's Forge",
+    "title": "Edpacca's Forge",
+    "description": "My custom foundry module",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "edpacca"
+        }
+    ],
+    "minimumCoreVersion": "10",
+    "compatibleCoreVersion": "10",
+    "compatibility": {
+        "minimum": "10.283",
+        "verified": "10"
+    },
+    "system": "dnd5e",
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "manifest": "",
+                "compatibility": {
+                    "minimum": "2.0.0",
+                    "verified": "2.0"
+                }
+            }
+        ]
+    },
+    "esmodules": [
+        "./scripts/edpacca.js"
+    ],
+    "styles": [
+        "./css/edpacca.css"
+    ],
+    "url": "",
+    "manifest": "",
+    "download": ""
+}

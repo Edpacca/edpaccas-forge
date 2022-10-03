@@ -1,0 +1,24 @@
+button.dialog-button.advantage {
+    filter: drop-shadow(0px 0px 3px rgb(48, 220, 0));
+}
+
+button.dialog-button.advantage:hover {
+    box-shadow: 0 0 5px rgb(48, 220, 0);
+}
+
+button.dialog-button.disadvantage {
+    filter: drop-shadow(0px 0px 3px rgb(255, 0, 0));
+}
+
+button.dialog-button.disadvantage:hover {
+    box-shadow: 0 0 5px rgb(255, 0, 0);
+}
+
+button.dialog-button.critical {
+    filter: drop-shadow(0px 0px 3px rgb(253, 190, 0));
+}
+
+button.dialog-button.critical:hover {
+    box-shadow: 0 0 5px rgb(253, 190, 0);
+    
+}
